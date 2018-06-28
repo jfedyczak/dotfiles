@@ -30,6 +30,8 @@ set smartindent
 set autoread
 set nofixendofline
 
+set incsearch
+
 set bri
 set briopt=shift:2
 
