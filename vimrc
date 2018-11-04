@@ -54,6 +54,7 @@ if &term =~ '256color'
     set t_ut=
 endif
 
+au BufNewFile,BufRead *.cson set syntax=coffee
 au CursorHold,CursorHoldI * checktime
 au FocusGained,BufEnter * checktime
 
